@@ -6,6 +6,7 @@
     --NAVY-BLUE: #2E2F42;
     --OCEAN: #404BBF;
     --CLOUD: #F4F4FD;
+    --LIGHT-SLATE: #8E8F99;
 }
 
 ul {
@@ -244,6 +245,7 @@ h1 {
 /* End of Effective solutions and Order service button */
 /* -------------------------------------------------------------------------------------- */
 /* Start of Section 1 */
+/* <!--Icons for Advantages--> */
 .icon-list {
     margin-top: 120px;
    list-style: none;
@@ -346,17 +348,87 @@ padding: 24px 100px 24px 100px;
 .position {
     margin: 0 auto;
     padding-top: 8px;
-    padding-bottom: 30px;
+    padding-bottom: 8px;
     text-align: center;
 }
 
+/* Team Icon Soc Med */
+  .teamicon-container {
+    gap: 24px;
+    padding-bottom: 32px;
+  }
+  .team-link {
+    height: 16px;
+    width: 16px;
+  }
+.team-icon {
+    background-color: var(--IRIS);
+    height: 40px;           
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.team-icon:hover,
+.team-icon:active, 
+.team-icon:focus {
+    background-color: var(--OCEAN);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+  .team-socialmedia-icon {
+    width: 16px;
+    height: 16px;
+    fill: #f4f4fd;
+  }
 /* End of Section 3 */
+/* Customers */
+
+.clients-icon {
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE);
+    fill: #8e8f99;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--OCEAN);
+    fill: var(--OCEAN);
+}
+
+.clients-header {
+    margin: 0 auto;
+    padding-bottom: 72px;
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
 /* ------------------------------------------------------------------------------------------------------- */
 /* Start of Footer */
 .footer-studio {
     min-height: 312px;
     background: var(--NAVY-BLUE);
     padding-top: 101.5px;
+    display: flex;
+    flex-direction: row;
 } 
 .logo-footer {
     /* margin-left: 156px; */
@@ -375,9 +447,50 @@ padding: 24px 100px 24px 100px;
 
 .footer-description {
     margin-top: 17.5px;
+    width: 264px;
     color: var(--CLOUD);
   }
-
+  /* <!--Footer social media--> */
+.footer-socialmedia {
+    padding-left: 120px;
+}
+  .socialmedia {
+    color: var(--CLOUD);
+    margin: 0;
+    padding-bottom: 16px;
+  }
+  .icon-container {
+    gap: 16px;
+  }
+  .footer-link {
+    height: 24px;
+    width: 24px;
+  }
+.footer-icon {
+    background-color: var(--IRIS);
+    height: 40px;           
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.footer-icon:hover,
+.footer-icon:active, 
+.footer-icon:focus {
+    background-color: #31D0AA;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+  .socialmedia-icon {
+    width: 24px;
+    height: 24px;
+    fill: #f4f4fd;
+  }
 /* End of Footer */
 /* ------------------------------------------------------------------------------------------------------- */
 /* Portfolio Styling */
@@ -487,8 +600,7 @@ padding: 24px 100px 24px 100px;
 .project-card:hover {
     border: 1px solid var(--CORNFLOWER);
     background: var(--WHITE);
-    box-shadow: 0px 4px 3px 0px rgba(46, 47, 66, 0.08), 0px 2px 2px 0px rgba(46, 47, 66, 0.16), 0px 2px 7px 0px rgba(46, 47, 66, 0.08);
-}
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
 
 .card-content-proj {
     padding: 32px 16px 32px 16px;
