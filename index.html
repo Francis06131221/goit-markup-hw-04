@@ -11,10 +11,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
+       <!--Modal-->  
+       <div class="is-hidden data-modal">      
+        <div class="modal-bg">
+         <svg class="button-x data-modal-close">
+             <use href="./Images/symbol-defs.svg#icon-close"></use>
+         </svg>
+        </div>
+     </div>
     <!--Menu Nav-->
     <div class="container">
     <header class="top-line-bg" id="header-logo">
@@ -39,9 +46,12 @@
             <section class="darkbg container">
             <div class="section1">
                 <h1>Effective Solutions <br>for Your Business</h1>
-                <button class="button-os" type="button"><span class="order-service">Order Service</span></button>
+                <button class="button-os data-modal-open" type="button"><span class="order-service">Order Service</span></button>
             </div>
             </section>
+   
+  
+    
      <!--Icons for Advantages-->
             <section class="advantages container">
                 <ul class="icon-list">
@@ -249,6 +259,7 @@
         </ul>
         </div>
     </footer>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
